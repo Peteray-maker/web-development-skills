@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>form validation</title>
+        <link rel="stylesheet" href="School Library.css" type="text/css">
+        <script lang="javascript" type="text/javascript">
+        function validate()
+        {
+            var username = document.getElementById('uname')
+            var password = document.getElementById('pass')
+            if(username.value == '' || password.value == '')
+            {
+                alert('please enter your username and password')
+                return false
+            }
+            else
+            {
+                true
+            }
+        }
+    
+        </script>
+        <body>
+        <section id="form">
+            <form class="arrange" onsubmit="return validate()" action="message frm vas.html" 0>
+                <h2 class="box1">Student Id</h2>
+                <input id="uname" class="box" type="text" placeholder="username">
+                <br></br>
+                
+                <h2 class="box1">Passcode</h2>
+                <input id="pass" class="box" type="password" placeholder="password">
+                <br></br>
+                <button class="response"  type="submit">Visit Library</button>
+               
+               <br><br>
+               <span>click here to <a href="Registration.html">Register</a>, if you don't have a Passcode</span>
+               
+            </form>
+            <div>
+                
+                <!-- <input type="checkbox" name="login" id="lg1">keep me logged in</input> -->
+            </div>
+        </section>
+        </body>
+    </head>
+</html>

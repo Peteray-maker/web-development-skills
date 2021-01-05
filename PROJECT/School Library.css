@@ -1,0 +1,65 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    background-color: beige; 
+    opacity: 100%;
+}
+#form
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('img/sch.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
+    /* margin: 30px; */
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.arrange
+{
+    padding: 50px;
+   ,margin-right: 10px;;
+}
+#school
+{
+    background-color: whitesmoke;
+    padding: 300px 600px;
+    font-size: 80%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#lg1
+{
+    margin: 20px;
+    margin-left: 300px;
+    margin-top: 5px;
+    padding: 20px;
+}
+.response
+{
+    border-color: deepskyblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+}
+.response:hover
+{
+    background-color: skyblue;
+    cursor: pointer;
+}
+.box
+{
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    border-color: deepskyblue;
+}
+.box1  
+{
+    font-weight: bold;
+    font-family: Tahoma;
+    padding-bottom: 10px;
+}
